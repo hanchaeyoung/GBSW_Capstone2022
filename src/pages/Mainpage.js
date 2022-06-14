@@ -4,6 +4,9 @@ import logoImg from '../assets/logoImg.png';
 import profileImg from '../assets/profileImg.png';
 import Capstone from '../assets/Capstone.jpg'
 import menu from '../assets/menu.png';
+import WritingPage from "./WritingPage";
+import { Link } from "react-router-dom";
+import plus from '../assets/plus.png';
 
 export const Mainpage = () => {
   return (
@@ -25,6 +28,12 @@ export const Mainpage = () => {
       </header>
 
       <div className="headerSort"></div>
+
+      <div className="btnSort">
+        <Link to="/WritingPage">
+          <img src={plus} className="btn" onClick={WritingPage} />
+        </Link>
+      </div>
 
       <div class="postDiv">
         <div className="postSort">
