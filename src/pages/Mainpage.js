@@ -42,7 +42,7 @@ export const Mainpage = () => {
               <img src={Capstone} alt="타이틀 이미지" />
             </div>
             <div className="text">
-              C언어 1일차
+              C언어 1일차 dmdfdlsj
             </div>
           </div>
 
